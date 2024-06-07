@@ -77,9 +77,6 @@ namespace Писять_и_спать_вирус
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            System.IO.Stream str = Properties.Resources.Y2mate_mx_Кто_громче_крикнет_жопа_на_уроке;
-            System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
-            snd.Play();
             timer1.Start();
             timer2.Start();
             timer3.Start();
@@ -209,7 +206,7 @@ namespace Писять_и_спать_вирус
                     oz = 17; //Сразу же меняем значение переменной на любое другое, кроме 0, чтоб вирус запустился только один раз 
                     try
                     {
-                        Process.Start("Писять и спать вирус"); //Можно заменить на (обязательно полный) путь к другому ехешнику 
+                        Process.Start("(YOUR NAME PROCESS)"); //Можно заменить на (обязательно полный) путь к другому ехешнику 
                     }
                     catch
                     {
