@@ -12,7 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Писять_и_спать_вирус
+namespace YOUR NAME PROJECT
 {
     public partial class Form1 : Form
     {
